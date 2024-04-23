@@ -1,0 +1,2 @@
+Não consegui enviar os vídeos pois tinham mais de 25MB e o github não aceita vídeos maiores que isso.
+Apesar desse ocorrido, o código está funcionando normalmente no meu computador com os vídeos instalados.
