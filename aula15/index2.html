@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div</title>
+    <style>
+    .divsimples{
+        background-color: lightcyan;
+        text-align: center;
+        border: 3px solid black;
+        color: black;
+        font-weight: bold;
+    }
+    .divtratada{
+        display: inline-block;
+        background-color: lightcyan;
+        text-align: center;
+        height: 200px;
+        width: 200px;
+        border: 3px solid black;
+    }
+    .divtratada:hover > p {
+        background-color: brown;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .divtexto{
+        color: red;
+        display: inline;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="divsimples">
+            <p style="display: inline;">01</p>
+        </div>
+    </div>
+    <div class="divtratada">
+        <p style="border: 2px solid black;;">02</p>
+    </div>
+    <div class="divtratada">
+        <p>03</p>
+    </div>
+    <div class="divsimples">
+        04
+    </div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. <div class="divtexto">Quia natus porro enim distinctio omnis</div> rerum pariatur quam labore voluptatem quasi odio animi ducimus esse veniam qui saepe, accusantium excepturi facere?
+</body>
+</html>
