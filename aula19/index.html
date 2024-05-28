@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h1>Login</h1>
+    <div>
+        
+            <label for="">Usuario:</label>
+            <input type="email" name="email-usuario" id="usuario" size="40" maxlength="50" value=""
+            placeholder="Digite o email do usuário" required>
+        <br>
+            <label for="">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+        <br>
+            <button onclick="validar()">Enviar</button>
+            <button onclick="cancelar()">Cancelar</button>
+        
+    </div>
+    <main>
+        <script>
+            const adm = "adm@uvv.br"
+            const psw = "adm#123"
+
+            function validar() {
+                let usuario = document.getElementById("usuario").value
+                let senha = document.getElementById("senha").value
+                window.alert(usuario)
+            }
+/*
+            function validarxx() {
+                let usuario = document.getElementById("usuario").value
+                let senha = document.getElementaryById("senha").value
+                window.alert(usuario)
+                if (usuario == adm && senha == psw) {
+                    window.alert("Usuário logado com sucesso !")
+                }
+                else
+                {
+                    window.alert("Usuário Inválido")
+                }
+            }
+            function cancelar() {
+                window.open("teste.html","_self");
+            }
+            */
+        </script>
+    </main>
+</body>
+</html>
